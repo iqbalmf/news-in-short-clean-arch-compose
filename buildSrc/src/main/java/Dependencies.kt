@@ -24,11 +24,17 @@ object Dependencies {
 
     //network
     val retrofit by lazy {"com.squareup.retrofit2:retrofit:${Versions.retrofit}"}
-    val okHttp by lazy {"com.squareup.okhttp:okhttp:${Versions.okhttp}"}
+    val okHttp by lazy {"com.squareup.okhttp3:okhttp:${Versions.okhttp}"}
     val gsonConverter by lazy {"com.squareup.retrofit2:converter-gson:${Versions.gsonConverter}"}
-    val moshi by lazy {"com.squareup.moshi:moshi-kotlin:${Versions.moshi}"}
-    val moshiConverter by lazy {"com.squareup.retrofit2:converter-moshi:${Versions.moshi}"}
+    val moshiKotlin by lazy {"com.squareup.moshi:moshi-kotlin:${Versions.moshi}"}
+    val moshi by lazy {"com.squareup.moshi:moshi:${Versions.moshi}"}
+    val moshiConverter by lazy {"com.squareup.retrofit2:converter-moshi:${Versions.moshiConverter}"}
+    val moshiCodegen by lazy { "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi}" }
     val loggingInterceptor by lazy {"com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"}
+
+    //coroutines
+    val coroutinesCore by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}" }
+    val coroutinesAndroid by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}" }
 }
 
 object Modules {

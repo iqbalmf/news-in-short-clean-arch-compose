@@ -68,6 +68,17 @@ dependencies {
     kapt(Dependencies.hiltAndroidCompiler)
     implementation(Dependencies.hiltNavigationCompose)
 
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.okHttp)
+    implementation(Dependencies.moshi)
+    implementation(Dependencies.moshiKotlin)
+    implementation(Dependencies.moshiConverter)
+    implementation(Dependencies.loggingInterceptor)
+    kapt(Dependencies.moshiCodegen)
+
+    implementation(Dependencies.coroutinesAndroid)
+    implementation(Dependencies.coroutinesCore)
+
     testImplementation(Dependencies.composeTestJunit4)
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

@@ -1,4 +1,4 @@
-package net.iqbalfauzan.newsinshort
+package net.iqbalfauzan.newsinshort.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

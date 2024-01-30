@@ -35,6 +35,13 @@ object Dependencies {
     //coroutines
     val coroutinesCore by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}" }
     val coroutinesAndroid by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}" }
+
+    //splashscreen
+    val splashScreen by lazy { "androidx.core:core-splashscreen:${Versions.splashScreen}" }
+
+    //image loader
+    val coil by lazy { "io.coil-kt:coil:${Versions.coil}" }
+    val coilCompose by lazy { "io.coil-kt:coil-compose:${Versions.coil}" }
 }
 
 object Modules {

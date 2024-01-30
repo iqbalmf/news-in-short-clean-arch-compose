@@ -30,7 +30,7 @@ class NewsViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             newsRepository.getNewsHeadline(country)
                 .collectLatest { newsResponse ->
-//                    _news.value = newsResponse
+                    _news.value = newsResponse
                 }
         }
     }

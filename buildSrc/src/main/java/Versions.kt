@@ -18,4 +18,6 @@ object Versions {
     const val loggingInterceptor = "4.8.1"
     const val moshi = "1.14.0"
     const val coroutines = "1.3.9"
+    const val splashScreen = "1.0.0"
+    const val coil = "2.5.0"
 }

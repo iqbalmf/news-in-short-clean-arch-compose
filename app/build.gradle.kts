@@ -78,6 +78,9 @@ dependencies {
 
     implementation(Dependencies.coroutinesAndroid)
     implementation(Dependencies.coroutinesCore)
+    implementation(Dependencies.splashScreen)
+    implementation(Dependencies.coil)
+    implementation(Dependencies.coilCompose)
 
     testImplementation(Dependencies.composeTestJunit4)
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
